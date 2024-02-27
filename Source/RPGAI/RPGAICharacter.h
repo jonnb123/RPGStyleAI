@@ -76,5 +76,8 @@ public:
 	virtual bool GetIsPlayer() override;
 
 	virtual bool GetIsAlive() override;
+
+	virtual float GetAttackRange() override;
+
 };
 

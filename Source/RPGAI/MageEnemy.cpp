@@ -3,3 +3,7 @@
 
 #include "MageEnemy.h"
 
+float AMageEnemy::GetAttackRange()
+{
+	return 1000.f;
+}

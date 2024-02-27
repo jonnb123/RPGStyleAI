@@ -13,5 +13,7 @@ UCLASS()
 class RPGAI_API AMageEnemy : public ARPGEnemy
 {
 	GENERATED_BODY()
-	
+
+public:
+	virtual float GetAttackRange() override;
 };

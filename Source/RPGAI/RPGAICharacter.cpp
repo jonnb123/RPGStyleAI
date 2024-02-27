@@ -85,6 +85,11 @@ bool ARPGAICharacter::GetIsAlive()
 	return false;
 }
 
+float ARPGAICharacter::GetAttackRange()
+{
+	return 1000.f;
+}
+
 //////////////////////////////////////////////////////////////////////////
 // Input
 

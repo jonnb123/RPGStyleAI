@@ -14,6 +14,11 @@ ARPGEnemy::ARPGEnemy()
 
 }
 
+float ARPGEnemy::GetAttackRange()
+{
+	return 1000.f;
+}
+
 // Called when the game starts or when spawned
 void ARPGEnemy::BeginPlay()
 {

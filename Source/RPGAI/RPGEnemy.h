@@ -29,6 +29,12 @@ public:
 	virtual bool GetIsAlive() override;
 	virtual bool GetIsPlayer() override;
 
+	UPROPERTY(EditAnywhere)
+	AActor* PatrolRoute;
+
+	virtual float GetAttackRange() override;
+
+
 protected:
 	virtual void BeginPlay() override;
 

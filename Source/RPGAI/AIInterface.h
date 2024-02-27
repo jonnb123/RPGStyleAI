@@ -26,6 +26,6 @@ public:
 
 	virtual bool GetIsPlayer() = 0;
 
-
+	virtual float GetAttackRange() = 0;
 	
 };

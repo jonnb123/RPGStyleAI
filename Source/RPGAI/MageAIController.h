@@ -11,6 +11,19 @@
 /**
  * 
  */
+UENUM(BlueprintType)
+enum class ECombatState : uint8
+{
+	E_Idle			UMETA(DisplayName = "Idle"),
+	E_Patrol		UMETA(DisplayName = "Patrol"),
+	E_RangedAttack  UMETA(DisplayName = "Ranged_Ataack"),
+	E_MeleeAttack	UMETA(DisplayName = "Melee_Attack"),
+	E_OutOfRange	UMETA(DisplayName = "Out_Of_Range"),
+	
+	E_Size			 UMETA(DisplayName = "Size")
+};
+
+
 UCLASS()
 class RPGAI_API AMageAIController : public AAIController
 {
